@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Nunito Sans','Raleway',sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: #fff;
+    
+}
+
+/**/
+.all{
+    padding: 50px 10rem;
+    justify-content: center;
+}
+
+.all .block{
+    display: flex;
+    margin-bottom: 4rem;
+    justify-content: space-between;
+}
+
+.all .block .text{
+    justify-items: center;
+    width: 50%;
+}
+
+.all .block .text h1{
+    justify-items: center;
+    color: rgb(42,124,111);
+    font-weight: 200;
+    font-size: 50px;
+}
+.all .block .text p{
+    text-align: center;
+    color: rgb(72, 165, 149);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/*reacomodacion para organizar el espaciado entre la imagen y el texto*/
+
+.all .block img{
+    width: 46%;
+    height: auto;
+}
+
+.all .block #img{
+    padding-left: 5%;
+}
+
+.all .block #img2{
+    padding-right: 5%;
+}
+/*fin de la ceparacion de cada una de las imagenes al texto*/
+
+
+
+.all .corporacion{
+    margin-top: 14%;
+    justify-items: center; /*centrar horizontalmente */
+    align-items: center; /*centrar verticalmente */
+}
+.all .corporacion .contenido{
+    display: flex;
+    grid-gap: 0px;
+    /*grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));*/
+}

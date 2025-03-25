@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Nunito Sans','Raleway',sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: #fff;
+    
+}
+
+
+/* navbar */
+.navbar{
+
+    background-color: #2F847C;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+header .logo img{
+    height: 50px;
+    width: auto;
+}
+
+.nav-links{
+
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+.nav-links li{
+    margin: 0px 4px;
+    transition: 0.5s;
+    padding:3px 10px 3px 10px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-decoration: none;
+}
+.nav-links li a img{
+    width: 30px;
+}
+.nav-links li a{
+    justify-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links li:hover{
+ background-color:#06796b;
+ border-radius: 20px;
+ transform: scale(1.1);
+}
+.nav-links li a:hover{
+    color: #90EE90;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.banner img{
+    width: 100%;
+    max-width: 980px;
+    max-height: 550px;
+}
+
+
+
+.banner1{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.banner1 h1{
+    font-weight:300;
+    font-size: 65px;
+    color: #2F4F4F;
+}
+.banner1 h3{
+    font-weight:400;
+    font-size: 20px;
+    color: #2F4F4F;
+    padding-bottom: 20px;
+}
+
+.banner2 {
+
+    font-weight: 300;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    
+
+}
+.banner2 .texto{
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.banner2 .texto div p{
+    padding: auto;
+    max-width: 600px;
+    text-align:center;
+    font-size: 25px;
+    color: #2F4F4F;
+}
+.banner2 .texto .boton {
+    
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ffff;
+    border: #06796b 2px solid;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.banner2 .texto .boton a{
+
+    color: #06796b;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.banner2 .texto .boton:hover{
+    border: none;
+    transition: 0.3s;
+    background-color: #06796b;
+    transform: scale(1.1);
+
+}
+.banner2 .texto .boton:hover a{
+    border: none;
+    color: #ffff;
+}
+
+
+.banner2 .banner2-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 0;
+
+}   
+
+.banner2 .banner2-img img {
+    width:  max-content;
+    height:max-content;
+    max-width: 390px;
+    max-height: 740px;
+    
+    
+}
+
+

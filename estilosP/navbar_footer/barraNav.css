@@ -1,0 +1,54 @@
+
+/*LOS ESTILSO DE LA BARRA DEL NAV*/
+/*es un css general para la barra de navegacion. Si es necesario cambiar algo en todas las pestañas, se editara aqui...*/
+.navbar{
+
+    background-color: #2F847C;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+header .logo img{
+    height: 50px;
+    width: auto;
+}
+
+.nav-links{
+
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+.nav-links li{
+    margin: 0px 4px;
+    transition: 0.5s;
+    padding:3px 10px 3px 10px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-decoration: none;
+}
+.nav-links li a img{
+    width: 30px;
+}
+.nav-links li a{
+    justify-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links li:hover{
+ background-color:#06796b;
+ border-radius: 20px;
+ transform: scale(1.1);
+}
+.nav-links li a:hover{
+    color: #90EE90;
+}

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 *{
@@ -571,8 +572,29 @@ body{
 }
 /*FIN FOOTER*/
 
-
-/* Inicio apartado portafolio */
+/*apartado portafolio text*/
+.portafolio-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+.portafolio-text h1{
+    text-align: center;
+    font-weight: 100;
+    font-size: 45px;
+    color: #2F4F4F;
+}
+.portafolio-text  p{
+    font-weight: 100;
+    max-width: 800px;
+    text-align:center;
+    padding-top: 2%;
+    font-size: 20px;
+    color: #2F4F4F;
+}
+/* Inicio apartado portafolio  catalogo*/
 
 .portafolio{
     margin: 5%;
@@ -590,7 +612,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
     margin: 0;
 }
 .portafolio div a{
@@ -598,7 +619,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 3%;
     margin: 0;
     text-decoration: none;
     color: #2F4F4F;
@@ -612,4 +633,316 @@ body{
 }
 .portafolio div a img:hover{
     transform:scale(1.1);
+}
+
+@media screen and (max-weidth: 775px){
+
+   
+    
+
+}
+
+/*Inicio apartado Acerca De*/
+
+/*banner1*/
+.banner1-about{
+    margin: 3%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.banner1-about .banner1-text-about{
+    font-family:"Montserrat","nunito sans", sans-serif;    
+    font-weight: 400;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: auto;
+    padding: 0;
+    margin-left:auto ;
+}
+
+.banner1-about .banner1-text-about .h1-text-about h1{
+    font-family: "montserrat","nunito sans", sans-serif;
+    font-weight: 500;
+    padding: auto;
+    max-width: 600px;
+    align-items: center;
+    text-align:center;
+    font-size: 50px;
+    color: #2F4F4F;
+
+}
+
+
+.banner1-about .banner1-text-about div p{
+    font-family:"Montserrat","nunito sans", sans-serif;    
+    font-weight: 400;
+
+    padding: auto;
+    max-width: 600px;
+    text-align:center;
+    font-size: 100%;
+    color: #2F4F4F;
+
+}
+
+.banner1-about .banner1-text-about .h1-text-about {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: auto;
+    margin:auto ;
+
+}
+
+.banner1-about .banner1-text-about .btn-contacto{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ffff;
+    border: #06796b 2px solid;
+    max-width: max-content;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.banner1-about .banner1-text-about .btn-contacto a{
+    
+    color: #06796b;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.banner1-about .banner1-text-about .btn-contacto:hover{
+    border: #06796b 2px solid;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.banner1-about .banner1-img-about{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 0;
+}
+.banner1-about .banner1-img-about img{
+    width: max-content;
+    max-height: max-content;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+
+/*banner2*/
+
+.banner2-about{
+    margin: 3%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.banner2-text-about{
+    font-weight: 400;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-template-rows: 1fr 1fr ;
+    padding: 0;
+   
+}
+
+.banner2-about .banner2-img-about{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 0;
+}
+.banner2-img-about img{
+    width: max-content;
+    max-height: max-content;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.banner2-text-about div h2{
+    font-family: "montserrat","nunito sans", sans-serif;
+    font-weight: 400;
+    padding: auto;
+    max-width: 600px;
+    align-items: center;
+    text-align:center;
+    font-size: 50px;
+    color: #2F4F4F;
+}
+.banner2-text-about div p{
+    font-family:"Montserrat","nunito sans", sans-serif;    
+    font-weight: 400;
+    padding: auto;
+    text-align:center;
+    font-size: 20px;
+    color: #2F4F4F;
+}
+
+/*banner3*/
+
+.banner3-about{
+    margin: 3%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.banner3-text-about{
+    font-weight: 400;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-template-rows: 1fr 1fr ;
+    padding: 0;
+   
+}
+
+.banner3-about .banner3-img-about{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 0;
+}
+.banner3-img-about img{
+    width: max-content;
+    max-height: max-content;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.banner3-text-about div h2{
+    font-family: "montserrat","nunito sans", sans-serif;
+    font-weight: 400;
+    padding: auto;
+    max-width: 600px;
+    align-items: center;
+    text-align:center;
+    font-size: 50px;
+    color: #2F4F4F;
+}
+.banner3-text-about div p{
+    font-family:"Montserrat","nunito sans", sans-serif;    
+    font-weight: 400;
+    padding: auto;
+    text-align:center;
+    font-size: 20px;
+    color: #2F4F4F;
+}
+
+/*banner4*/
+
+.banner4-about{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    display:grid;
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.banner4-text-about{
+    font-weight: 400;
+    display: grid;
+    justify-content:inherit;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 0;
+   
+}
+.banner4-text-about  h2{
+    font-family: "montserrat","nunito sans", sans-serif;
+    font-weight: 400;
+    padding: auto;
+    max-width: 600px;
+    align-items: center;
+    text-align:center;
+    font-size: 50px;
+    color: #2F4F4F;
+}
+.banner4-img-about{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 2%;
+    
+}
+.banner4-img-about img{
+
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.section-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    column-gap: 3%;
+}
+.section-product .product-text{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-template-rows: auto 1fr;
+}
+
+.product-text .product-text-title h1{
+    font-family: "montserrat","nunito sans", sans-serif;
+    font-weight: 400;
+    padding: auto;
+    max-width: 600px;
+    align-items: center;
+    text-align:center;
+    font-size: 50px;
+    color: #2F4F4F;
+    padding-bottom: 5%;
+}
+.product-text .product-text-description p{
+    font-family:"Montserrat","nunito sans", sans-serif;    
+    font-weight: 400;
+    padding: auto;
+    text-align:center;
+    font-size: 20px;
+    color: #2F4F4F;
+}
+.product-img img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+.Previous-Next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+.Previous-Next a{
+    text-decoration: none;
+    color: #2F4F4F;
+    font-weight: 500;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+.Previous-Next a:hover{
+    color: #06796b;
+    transform: scale(1.1);
 }
